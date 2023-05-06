@@ -7,12 +7,12 @@ spring:
 
 
 
-#mybatis-plus:
-#     configuration:
-#       map-underscore-to-camel-case: true
-#       auto-mapping-behavior: full
-#       log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-#       use-generated-keys: true
-#     mapper-locations: classpath*:mapper/**/*Mapper.xml
+mybatis-plus:
+     configuration:
+       map-underscore-to-camel-case: true
+       auto-mapping-behavior: full
+       log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+       use-generated-keys: true
+     mapper-locations: classpath*:mapper/**/*Mapper.xml
 
 

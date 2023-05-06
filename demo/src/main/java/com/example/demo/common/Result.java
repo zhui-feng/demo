@@ -4,7 +4,6 @@ package com.example.demo.common;
 import lombok.Data;
 
 /**
- * @author 张良Alan   2023-01-09 1:33
  */
 @Data
 public class Result<T> {
@@ -12,9 +11,9 @@ public class Result<T> {
 
     private static String FAILURE = "操作失败";
 
-    public static final int OK = 0;
+    public static final int OK = 1;
 
-    public static final int NO = 1;
+    public static final int NO = 0;
 
     public static final int ADD_FAIL = 1001;
 
